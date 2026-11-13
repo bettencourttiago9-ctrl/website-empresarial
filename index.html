@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Tiago - Soluções empresariais e tecnológicas.">
+
+    <title>Tiago | Soluções Empresariais</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                Empresa<span>Digital.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Abrir menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+
+                <p class="eyebrow">Bem-vindo à Empresa Digital</p>
+
+                <h1>
+                    Transformamos ideias
+                    em soluções para o futuro.
+                </h1>
+
+                <p>
+                    Desenvolvemos soluções empresariais
+                    que ajudam organizações a crescer,
+                    inovar e trabalhar melhor.
+                </p>
+
+                <a href="#servicos" class="btn">
+                    Conhecer os serviços
+                </a>
+
+            </div>
+        </section>
+
+        <section class="section container" id="sobre">
+
+            <p class="eyebrow">Quem somos</p>
+
+            <h2>Sobre a nossa empresa</h2>
+
+            <p>
+                Somos uma empresa dedicada ao desenvolvimento
+                de soluções modernas, eficientes e orientadas
+                para as necessidades dos nossos clientes.
+            </p>
+
+        </section>
+
+        <section class="section services" id="servicos">
+
+            <div class="container">
+
+                <p class="eyebrow">O que fazemos</p>
+                <h2>Os nossos serviços</h2>
+
+                <div class="service-grid">
+
+                    <article class="service-card">
+                        <h3>Consultoria</h3>
+                        <p>
+                            Orientação estratégica para
+                            melhorar os processos empresariais.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Tecnologia</h3>
+                        <p>
+                            Soluções tecnológicas adaptadas
+                            às necessidades das organizações.
+                        </p>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Inovação</h3>
+                        <p>
+                            Aplicação de novas tecnologias
+                            para resolver problemas reais.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section container" id="contactos">
+
+            <p class="eyebrow">Fale connosco</p>
+            <h2>Entre em contacto</h2>
+
+            <form id="contact-form">
+
+                <label for="name">Nome</label>
+                <input type="text" id="name"
+                       placeholder="O seu nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email"
+                       placeholder="tiago.bettencourt@email.com" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message"
+                          placeholder="Escreva a sua mensagem"
+                          required></textarea>
+
+                <button type="submit" class="btn">
+                    Enviar mensagem
+                </button>
+
+                <p id="form-status" role="status"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                © <span id="year"></span>
+                Empresa Digital. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

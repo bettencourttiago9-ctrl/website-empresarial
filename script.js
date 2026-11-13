@@ -55,8 +55,6 @@ contactForm.addEventListener("submit", (event) => {
     }
 
     formStatus.textContent =
-        "Formulário validado! Ainda falta configurar o envio ao servidor.";
-
-    contactForm.reset();
+        "Os dados foram preenchidos correctamente. O envio de mensagens ainda não está disponível.";
 
 });
